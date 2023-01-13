@@ -11,7 +11,6 @@ Step 2: Remotely Connecting
 
 Part 1: For this step, if you are connecting through a computer in the lab (as I was) you just need to open a terminal in VScode. You can do this by clicking "Terminal" on upper left of the window then clicking the "New Terminal" menu option, another method is pressing Ctrl/Command + '. When you are in the terminal, type "ssh cs15lwi23zz@ieng6.ucsd.edu" where "zz" are the letters in your course-specific account (for example: ssh cs15lwi23bc@ieng6.ucsd.edu). Press enter.
 You should receive a message such as the one in the image below:
-
 <img width="634" alt="Screen Shot 2023-01-13 at 1 12 50 PM" src="https://user-images.githubusercontent.com/122492492/212420132-49ac6f78-67b6-435d-befc-d287451d94fc.png">
 
 You will be asked "Are you sure you want to continue connecting (yes/no/[fingerprint])? Answer: "Yes", as shown in the image above.
