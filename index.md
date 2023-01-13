@@ -2,12 +2,14 @@ Week 1 Lab Report: a tutorial to log into a course-specific account on ieng6
 
 Step 1: Downloading and Installing Visual Studio Code (VScode)
 ![image](https://user-images.githubusercontent.com/122492492/211933489-5f24d739-67df-4201-b66a-ef0b010a79d2.png)
+
 For this step I already have Visual Studio Code downloaded into my own computer and can skip the installation step (the installation can be skipped to using a computer from one of the labs in the Engineering building). If you have not already downloaded Visual Studio Code, go to there website through this link: https://code.visualstudio.com/, and follow the instructions provided to install it onto your computer (pay attention to the different versions being offered for Macs and Windows). Once installed, you should be able to open a window that looks similar to the image above. If you are accessing Visual Studio Code from a computer in the lab, you simply need to search for it in the search bar on the bottom left of the screen and click on it to open a window that looks like the image provided above.
 
 Step 2: Remotely Connecting
 Part 1: For this step, if you are connecting through a computer in the lab (as I was) you just need to open a terminal in VScode. You can do this by clicking "Terminal" on upper left of the window then clicking the "New Terminal" menu option, another method is pressing Ctrl/Command + '. When you are in the terminal, type "ssh cs15lwi23zz@ieng6.ucsd.edu" where "zz" are the letters in your course-specific account (for example: ssh cs15lwi23bc@ieng6.ucsd.edu). Press enter.
 You should receive a message such as the one in the image below:
 <img width="634" alt="Screen Shot 2023-01-13 at 1 12 50 PM" src="https://user-images.githubusercontent.com/122492492/212420132-49ac6f78-67b6-435d-befc-d287451d94fc.png">
+
 You will be asked "Are you sure you want to continue connecting (yes/no/[fingerprint])? Answer: "Yes", as shown in the image above.
 Your screen would appear like this:
 <img width="635" alt="Screen Shot 2023-01-13 at 1 15 47 PM" src="https://user-images.githubusercontent.com/122492492/212420582-ff0373bb-a2ab-419c-a7c0-ec58b23f4075.png">
