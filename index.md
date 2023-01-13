@@ -22,7 +22,7 @@ Part 2: Since it is most likely your first time connecting to a server, you will
 
 Change MyTritonLink password? [No]
 
-Change course-spefic account passwords? [Yes]
+Change course-specific account passwords? [Yes]
 
 Once you have reached the end, DO NOT click "Check Password" just press your enter key.
 Once your password is set, you'll have to wait at least 15 minutes before using it.
