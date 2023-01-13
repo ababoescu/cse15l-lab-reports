@@ -8,6 +8,7 @@ For this step I already have Visual Studio Code downloaded into my own computer 
 
 
 
+
 Step 2: Remotely Connecting
 
 Part 1: For this step, if you are connecting through a computer in the lab (as I was) you just need to open a terminal in VScode. You can do this by clicking "Terminal" on upper left of the window then clicking the "New Terminal" menu option, another method is pressing Ctrl/Command + '. When you are in the terminal, type "ssh cs15lwi23zz@ieng6.ucsd.edu" where "zz" are the letters in your course-specific account (for example: ssh cs15lwi23bc@ieng6.ucsd.edu). Press enter.
@@ -33,4 +34,4 @@ Part 3: Once your password is set up, type your password next to the prompt "Pas
 
 
 Step 3: Trying Some Commands
-
+<img width="513" alt="Screen Shot 2023-01-13 at 2 20 02 PM" src="https://user-images.githubusercontent.com/122492492/212429830-b8950e70-6524-4d61-a779-29a4ae46103a.png">
