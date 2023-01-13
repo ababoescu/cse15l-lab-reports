@@ -28,6 +28,5 @@ Once you have reached the end, DO NOT click "Check Password" just press your ent
 Once your password is set, you'll have to wait at least 15 minutes before using it.
 
 Part 3: Once your password is set up, type your password next to the prompt "Password: " displayed on your terminal. Password will not appear when you type it (don't worry, it is there). Once you are done, press enter and your terminal should display something similar to the image below:
-<img width="626" alt="Screen Shot 2023-01-13 at 1 43 55 PM" src="https://user-images.githubusercontent.com/122492492/212424785-8048e0ce-8756-4f8a-90ba-900f19da181c.png">
-
+<img width="350" alt="Screen Shot 2023-01-13 at 1 45 01 PM" src="https://user-images.githubusercontent.com/122492492/212424960-88226b4c-4e80-452f-b8cc-621145172627.png">
 
