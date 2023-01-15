@@ -38,7 +38,8 @@ Step 3: Trying Some Commands
 <img width="513" alt="Screen Shot 2023-01-13 at 2 20 02 PM" src="https://user-images.githubusercontent.com/122492492/212429830-b8950e70-6524-4d61-a779-29a4ae46103a.png">
 I decided to try several commands:
 
-- [cd ~]:  this command changes directory to the path [~], nothing would be printed if it works
+- [ls]: this command lists the files of a given path,
+- [cd ~]:  this command changes directory, nothing would be printed if it works
 - [cd]: this command, like the last one, changes directory
 - [ls -lat]:
 - [cat /home/linux/ieng6/cs15lwi23/public/hello.txt]: The command returned an error due the file not existing and an alternative command was given.
