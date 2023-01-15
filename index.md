@@ -36,3 +36,5 @@ Part 3: Once your password is set up, type your password next to the prompt "Pas
 Step 3: Trying Some Commands
 
 <img width="513" alt="Screen Shot 2023-01-13 at 2 20 02 PM" src="https://user-images.githubusercontent.com/122492492/212429830-b8950e70-6524-4d61-a779-29a4ae46103a.png">
+I decided to try several commands:
+- 
