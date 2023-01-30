@@ -27,3 +27,10 @@ This output follows the same methods as the output above, with the same relevant
 user writes a new string at the end of "/add-message?s=" that string would be printed below the string previosly inputed before it, as shown in the image. This specific output, with the next string appearing below the previous string is a achieved by concatinating "\n" to the end of each string inputed.
 
 The only value that changes for this output is the string inputed by the user into the url ("How are you"), leading to it being stored into an array list and being printed out below the first string ("Hello").
+
+
+**Part 2:** Choosing a bug from lab 3
+
+
+
+
