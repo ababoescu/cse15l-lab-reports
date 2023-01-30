@@ -31,6 +31,37 @@ The only value that changes for this output is the string inputed by the user in
 
 **Part 2:** Choosing a bug from lab 3
 
+Code being tested:
+```
+#code block
+static void reverseInPlace(int[] arr){
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = arr[arr.length - i - 1];
+  }
+}
+```
+
+A failure-inducing input for the buggy program:
+```
+# code block
+@Test
+public void testReverseInPlace(){
+  int[] input1 = {1,2,3};
+  ArrayExamples.reverseInPlace(input1);
+  assertArrayEquals(new int[]{3,2,1}, input1);
+}
+ ```
+
+An input that doesn't induce a failure:
+```
+#code block
+@Test
+public void testReverseInPlace2(){
+  int[] input2 = {3};
+  ArrayExamples.reverseInPlace(input2);
+  assertArrayEquals(new int[]{3}, input2);
+}
+```
 
 
 
