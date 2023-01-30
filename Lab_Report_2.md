@@ -90,5 +90,5 @@ Fix: The array should be creating a new array with the newArray being assigned o
 
 
 **Part 3:** Something I learned
-I learned about URLS to create a web server. More specifically on taking a URL as an input and respond with the text of a web page (an example of this can be demonstrated in Part 1). I also learned how to run the server on my local computer.
+Something that I learned about, that I didn't know about before, was using URLS to create a web server. More specifically on taking a URL as an input and respond with the text of a web page (an example of this can be demonstrated in Part 1). I also learned how to run the server on my local computer.
 
