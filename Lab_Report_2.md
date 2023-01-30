@@ -5,7 +5,9 @@
 
 Code:
 
-![Image 1-28-23 at 11 22 PM](https://user-images.githubusercontent.com/122492492/215312049-1dd26071-1f5c-433e-baf6-2fb1dd741e03.jpg)
+
+<img width="412" alt="Screen Shot 2023-01-29 at 10 29 25 PM" src="https://user-images.githubusercontent.com/122492492/215404176-ed338f2f-3714-4185-9687-b9421fb735b9.png">
+
 
 Output 1 (when typing /add-message?s=Hello):
 
