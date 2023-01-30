@@ -34,10 +34,12 @@ The only value that changes for this output is the string inputed by the user in
 Code being tested:
 ```
 #code block
-static void reverseInPlace(int[] arr){
-  for(int i = 0; i < arr.length; i += 1) {
-    arr[i] = arr[arr.length - i - 1];
-  }
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
 }
 ```
 
@@ -45,10 +47,9 @@ A failure-inducing input for the buggy program:
 ```
 # code block
 @Test
-public void testReverseInPlace(){
-  int[] input1 = {1,2,3};
-  ArrayExamples.reverseInPlace(input1);
-  assertArrayEquals(new int[]{3,2,1}, input1);
+public void testReversed2(){
+  int[] input2 = {1,2,3};
+  assertArrayEquals(new int[]{3,2,1}, ArrayExamples.reversed(input2));
 }
  ```
 
@@ -56,12 +57,38 @@ An input that doesn't induce a failure:
 ```
 #code block
 @Test
-public void testReverseInPlace2(){
-  int[] input2 = {3};
-  ArrayExamples.reverseInPlace(input2);
-  assertArrayEquals(new int[]{3}, input2);
+public void testReversed() {
+  int[] input1 = { };
+  assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
 }
 ```
 
+![Image 1-29-23 at 10 06 PM](https://user-images.githubusercontent.com/122492492/215400606-a31a3d76-5272-4c3e-a310-bbe789e35fb8.jpg)
+
+
+```
+#code before
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+}
+```
+```
+#code after
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1]; //this line is changed
+    }
+    return arr;
+}
+```
+Fix: The array should be creating a new array with the newArray being assigned on the left rather than the right. So it’s supposed to be newArray[i] = arr[arr.length-i-1]. The reason the previous code was wrong was because arr was getting assigned with an empty array (newArray).
+
+
+**Part 3:** Something I learned
 
 
