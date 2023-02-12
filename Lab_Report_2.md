@@ -7,7 +7,8 @@ Code:
 
 
 
-![Image 2-11-23 at 3 40 PM](https://user-images.githubusercontent.com/122492492/218285656-c844caca-0efd-418c-a0ce-3a7d40d7978b.jpg)
+<img width="425" alt="Screen Shot 2023-02-11 at 10 28 22 PM" src="https://user-images.githubusercontent.com/122492492/218296608-3ec1e369-acf3-4b03-9f16-34100be22fd3.png">
+
 
 
 
