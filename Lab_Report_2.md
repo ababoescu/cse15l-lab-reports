@@ -17,7 +17,7 @@ Output 1 (when typing /add-message?s=Hello):
 
 ![Image 1-28-23 at 11 24 PM](https://user-images.githubusercontent.com/122492492/215312166-b1f8433b-adab-4356-8c12-c47b73789731.jpg)
 
-To achieve the output of the image above, I had to first create a method, called public String HandleRequest (URI url), that handles a url request and in this method I created a url path that contains the string "/add-message", from this path I had to then create a query that asks for a string variable _s_ that the user would input and be printed on the web page. 
+To achieve the output of the image above, I had to first create a method, called public String HandleRequest (URI url), that handles a URI request and runs the url through the getPath() that contains the string "/add-message", if the inputed string matches the string in the getPath(),the rest of the url that is after the "?" will be be run through the getQuery(), which returns the query component of the URI. The query will ask for a string variable _s_ that the user would input and be printed on the web page. 
 
 Relevant arguments used in this method are two string variables assigned to the args parameters, the first string being "s" and the second string an input that the user would insert into the url. Another revelant field is an array list that was created to store the memory of the strings inputed by the user, so that they may be displayed when the user types in a new string into the url.
 
