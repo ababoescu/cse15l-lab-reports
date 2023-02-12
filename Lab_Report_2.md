@@ -36,7 +36,7 @@ The only value that changes for this output is the string inputed by the user in
 
 
 
-![Image 2-11-23 at 10 41 PM](https://user-images.githubusercontent.com/122492492/218297035-e02dd467-0385-4bc4-bf29-ea75b2a8ace5.jpg)
+<img width="485" alt="Screen Shot 2023-02-11 at 10 43 41 PM" src="https://user-images.githubusercontent.com/122492492/218297056-05d188f2-1a15-4c51-a449-5d2e17c1bd07.png">
 
 
 
