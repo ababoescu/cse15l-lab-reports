@@ -34,7 +34,11 @@ user writes a new string at the end of "/add-message?s=" that string would be pr
 
 The only value that changes for this output is the string inputed by the user into the url ("How are you"), leading to it being stored into an array list and being printed out below the first string ("Hello"). From the image below you can see how the strings are being stored in the array list in the terminal.
 
-<img width="455" alt="Screen Shot 2023-01-30 at 6 08 28 PM" src="https://user-images.githubusercontent.com/122492492/215641739-76e6b812-6fba-425d-be65-d4762eebf8ea.png">
+
+
+![Image 2-11-23 at 10 41 PM](https://user-images.githubusercontent.com/122492492/218297035-e02dd467-0385-4bc4-bf29-ea75b2a8ace5.jpg)
+
+
 
 
 
