@@ -19,9 +19,9 @@ Output 1 (when typing /add-message?s=Hello):
 
 To achieve the output of the image above, I had to first create a method, called public String HandleRequest (URI url), that handles a URI request and runs the url through the getPath() that contains the string "/add-message", if the inputed string matches the string in the getPath(),the rest of the url that is after the "?" will be be run through the getQuery(), which returns the query component of the URI. The query will ask for a string variable _s_ that the user would input and be printed on the web page. 
 
-Relevant arguments used in this method are two string variables assigned to the args parameters, the first string being "s" and the second string an input that the user would insert into the url. Another revelant field is an array list that was created to store the memory of the strings inputed by the user, so that they may be displayed when the user types in a new string into the url.
+Relevant arguments used in this method are two string variables assigned to the args parameters, the first string being "s" and the second string an input that the user would input into the url after the query. Another revelant field is an array list that was created to store the memory of the strings inputed by the user, so that they may be displayed when the user types in a new string into the url.
 
-Values that are relevant are the strings that take the user's input, that are labeled parameters, and the array list that stores the string.
+Values that are relevant are the strings that take the user's input, that are labeled parameters, and the array list that stores the string. As can be seen in the image of the terminal at the end of this part. There is also another string, called tempConcatString, that helps to concatenate each string together with each of them being seperated by a newline. The array list called myStringList gets updated with the first string input provided by the user ("Hello"). When the user would later update the url with "How are you" instead of "Hello" the array list will be updated to storing the second string as well, after the first string.
 
 
 Output 2 (when typing /add-message?s=How are you):
@@ -95,7 +95,7 @@ static int[] reversed(int[] arr) {
     return newArray; //this line is changed
 }
 ```
-Fix: The array should be creating a new array with the newArray being assigned on the left rather than the right. So it’s supposed to be newArray[i] = arr[arr.length-i-1]. The reason the previous code was wrong was because arr was getting assigned with an empty array (newArray).
+Fix: The array should be creating a new array with the newArray being assigned on the left rather than the right. So it’s supposed to be newArray[i] = arr[arr.length-i-1]. The reason the previous code was wrong was because arr was getting assigned with an empty array (newArray). The return arr, will also need to be changed to return newArray.
 
 
 **Part 3:** Something I learned
