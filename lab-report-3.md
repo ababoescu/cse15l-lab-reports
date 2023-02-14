@@ -1,4 +1,7 @@
 **Researching the Command: grep**
+
+
+
 Source: Man grep (using the built manual in the VS Code Terminal)
 
 **Grep -r -l:**
