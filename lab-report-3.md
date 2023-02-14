@@ -45,7 +45,7 @@ Ethics
 This example is finding all the lines in the file _ch5.txt_ that do not contain the strings "is" and "a" and returning them. This is helpful for locating lines that exclude strings that the user does not want such as "is" and "a", as shown from this example.
 ```
 #searching lines in file ch5.txt not containing the **words** " is " and " a "
-$ grep -v -e "is" -e "a" written_2/non-fiction/OUP/Kauffman/ch5.txt
+$ grep -v -e " is " -e " a " written_2/non-fiction/OUP/Kauffman/ch5.txt
 
 
 Chapter 5
