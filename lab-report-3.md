@@ -121,7 +121,7 @@ This example is much the like the previous example, the difference being that th
 
 
 
-Grep -i -e:
+**Grep -i -e:**
 1. -e: specifies a pattern used during the search of the input
 2. -i: performs case insensitive matching (ignore case)
 
