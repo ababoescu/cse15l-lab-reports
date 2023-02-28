@@ -20,7 +20,8 @@ The `git clone git@github.com:ababoescu/lab7.git` command was in my command hist
 
 ## Step 6: Run tests, demonstrating that they fail
 
-<img width="626" alt="Screen Shot 2023-02-27 at 6 43 44 PM" src="https://user-images.githubusercontent.com/122492492/221740007-e6b93ba9-3ccb-4d67-bcce-d3348b28401d.png">
+<img width="626" alt="Screen Shot 2023-02-27 at 7 26 18 PM" src="https://user-images.githubusercontent.com/122492492/221745732-2afad855-7e0a-4605-8204-eba9c3a9a34a.png">
+
 
 Keys pressed: `cd l<tab><enter>`,`<Ctrl-R>javac -<enter>`,`<Ctrl-R>java -<enter>`
 
