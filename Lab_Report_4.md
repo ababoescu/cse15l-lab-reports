@@ -53,3 +53,10 @@ I accessed and ran the same test commands as I did in **Step 6**, using Ctrl-R s
 Keys pressed: `<Ctrl-R>git a<enter>`,`<Ctrl-R>git c<enter>`,`<Ctrl-R>git p<enter>`
 
 The `git add ListExamples.java` command was in my bash history, so I used Ctrl-R to access and run it. I did the same with the commands `git commit -m "Update"` and `git push origin main` to access them and run them.
+
+
+## Update in GitHub:
+
+<img width="508" alt="Screen Shot 2023-02-27 at 7 29 11 PM" src="https://user-images.githubusercontent.com/122492492/221746138-db9db1ea-3bc3-4d83-aeac-2d9800efb996.png">
+
+Line 43 is shown to be properly updated from `index1 += 1;` to `index2 += 1;`.
