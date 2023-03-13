@@ -5,3 +5,7 @@ Source: Man find (using the built manual in the VS Code Terminal)
 
 
 ## Find -s
+
+
+
+## Find -name
