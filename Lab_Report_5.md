@@ -6,7 +6,7 @@ Source: Man find (using the built manual in the VS Code Terminal)
 
 ### Example 1:
 ```
-#finding if there are any empty files in the subdirectory **written_2/travel_guides**
+#finding if there are any empty files in the subdirectory written_2/travel_guides
 $ find written_2/travel_guides -empty
 (nothing is returned)
 ```
@@ -15,7 +15,7 @@ The example above shows the searching for empty files in the subdirectory travel
 
 ### Example 2:
 ```
-#finding if there are any empty files in the directory **written_2/**
+#finding if there are any empty files in the directory written_2/
 $ find written_2/ -empty
 (nothing is returned)
 ```
@@ -59,7 +59,7 @@ Much like the example before, however this example is searching for the file wit
 
 ### Example 1:
 ```
-#finding directories that contain the name **berlitz**
+#finding directories that contain the name berlitz
 $ find -type d -name "berlitz*"
 ./written_2/travel_guides/berlitz1
 ./written_2/travel_guides/berlitz2
