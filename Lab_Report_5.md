@@ -22,27 +22,24 @@ $ find written_2/ -empty
 
 Much like the example before, however this example is searching for an empty file in the written_2 directory.
 
-## Find -ls
--ls: list current file in ls
-
 
 ## Find -name
--name: find the path based off of the file name
+-name: find the path based off of the file/directory name
 
 ### Example 1:
 ```
-#finding files that start with "Cuba"
+#finding files and directories that start with "Cuba"
 $ find written_2/ -name "Cuba*"
 written_2/travel_guides/berlitz2/Cuba-History.txt
 written_2/travel_guides/berlitz2/Cuba-WhatToDo.txt
 written_2/travel_guides/berlitz2/Cuba-WhereToGo.txt
 ```
 
-The above example is searching for files with the name Cuba in them and the path to that file containing the string "Cuba" in the written_2/ directory. This command is helpful for searching the subdirectories to find a specific file with the name matching the imputed string and include their path so that the user can easily find which directories and subdirectories the file is located.
+The above example is searching for files and directories with the name Cuba in them and the path to that file containing the string "Cuba" in the written_2/ directory. This command is helpful for searching the subdirectories to find a specific file or directory with the name matching the imputed string and include their path so that the user can easily find which directories and subdirectories the file or directory is located.
 
 ### Example 2:
 ```
-#finding files that contain the text file name "ch1.txt"
+#finding files and directories that contain the text file name "ch1.txt"
 $ find written_2/ -name "ch1.txt"
 written_2/non-fiction/OUP/Abernathy/ch1.txt
 written_2/non-fiction/OUP/Berk/ch1.txt
@@ -51,10 +48,39 @@ written_2/non-fiction/OUP/Kauffman/ch1.txt
 written_2/non-fiction/OUP/Rybczynski/ch1.txt
 ```
 
-Much like the example before, however this example is searching for the file with the name "ch1.txt" in the written_2 directory.
+Much like the example before, however this example is searching for the files and directories with the name "ch1.txt" in the written_2 directory.
+
+
+## Find -type f -name
+-name: find the path based off of the file name
+
+
+-type d: searches for files only
+
+### Example 1:
+```
+#finding the files that contain the name ch9
+$ find -type f -name "ch9*"
+./written_2/non-fiction/OUP/Abernathy/ch9.txt
+./written_2/non-fiction/OUP/Fletcher/ch9.txt
+./written_2/non-fiction/OUP/Kauffman/ch9.txt
+```
+
+The above example is much like the previous examples searching for the name of files or directories in a directory, however, this specific command allows you to specifically search for files in the written_2/ directory that contain the string **ch9**. This command is helpful for a user to simplify their search if they wish to search up specific files rather than every possible file, directory, subdirectory, etc. that contain the string **ch9**.
+
+### Example 2;
+```
+#finding the files that contain the name Paris
+$ find -type f -name "Paris*"
+./written_2/travel_guides/berlitz2/Paris-WhatToDo.txt
+./written_2/travel_guides/berlitz2/Paris-WhereToGo.txt
+```
+
+Much like the example before, however this example is searching for the file with the name "Paris" in the written_2 directory.
+
 
 ## Find -type d -name
--name: find the path based off of the file name
+-name: find the path based off of the file name 
 
 
 -type d: searches for directories only
@@ -67,7 +93,7 @@ $ find -type d -name "berlitz*"
 ./written_2/travel_guides/berlitz2
 ```
 
-The above example is much like the previous examples searching for the name of files in a directory, however, this specific command allows you to specifically search for directories in the written_2/ directory that contain the string **berlitz**. This command is helpful for a user to simplify their search if they wish to search up specific directories rather than every possible file, directory, subdirectory, etc. that contain the string **berlitz**.
+The above example is much like the previous examples searching for the name of files or directories in a directory, however, this specific command allows you to specifically search for directories in the written_2/ directory that contain the string **berlitz**. This command is helpful for a user to simplify their search if they wish to search up specific directories rather than every possible file, directory, subdirectory, etc. that contain the string **berlitz**.
 
 ### Example 2:
 ```
