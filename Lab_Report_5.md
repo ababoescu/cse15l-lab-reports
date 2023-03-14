@@ -2,7 +2,25 @@
 Source: Man find (using the built manual in the VS Code Terminal)
 
 ## Find -empty
--empty: returns whether or not the file is empty
+-empty: returns whether or not the file is empty (if return nothing = no empty files in directory)
+
+### Example 1:
+```
+#finding if there are any empty files in the subdirectory **written_2/travel_guides**
+$ find written_2/travel_guides -empty
+(nothing is returned)
+```
+
+The example above shows the searching for empty files in the subdirectory travel_guides, in the case of this example there are no empty files. This command is helpful to find if there are any empty files in your directory/subdirectory without having to search each file independently.
+
+### Example 2:
+```
+#finding if there are any empty files in the directory **written_2/**
+$ find written_2/ -empty
+(nothing is returned)
+```
+
+Much like the example before, however this example is searching for an empty file in the written_2 directory.
 
 ## Find -ls
 -ls: list current file in ls
