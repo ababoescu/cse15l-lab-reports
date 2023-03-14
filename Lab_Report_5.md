@@ -1,4 +1,4 @@
-# Researching the Command:find
+# Researching the Command: find
 Source: Man find (using the built manual in the VS Code Terminal)
 
 ## Find -empty
@@ -9,3 +9,6 @@ Source: Man find (using the built manual in the VS Code Terminal)
 
 
 ## Find -name
+
+
+## Find -print
