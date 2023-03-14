@@ -53,5 +53,25 @@ written_2/non-fiction/OUP/Rybczynski/ch1.txt
 
 Much like the example before, however this example is searching for the file with the name "ch1.txt" in the written_2 directory.
 
-## Find -print
--print: prints the full file name on the standard output
+## Find -type d -name
+-name: find the path based off of the file name
+-type d: searches for directories only
+
+### Example 1:
+```
+#finding directories that contain the name **berlitz**
+$ find -type d -name "berlitz*"
+./written_2/travel_guides/berlitz1
+./written_2/travel_guides/berlitz2
+```
+
+The above example is much like the previous examples searching for the name of files in a directory, however, this specific command allows you to specifically search for directories in the written_2/ directory that contain the string **berlitz**. This command is helpful for a user to simplify their search if they wish to search up specific directories rather than every possible file, directory, subdirectory, etc. that contain the string **berlitz**.
+
+### Example 2:
+```
+#finding the directory OUP
+$ find -type d -name "OUP"
+./written_2/non-fiction/OUP
+```
+
+Much like the example before, however this example is searching for the directory with the name "OUP" in the written_2 directory.
