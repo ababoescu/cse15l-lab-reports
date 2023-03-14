@@ -55,6 +55,8 @@ Much like the example before, however this example is searching for the file wit
 
 ## Find -type d -name
 -name: find the path based off of the file name
+
+
 -type d: searches for directories only
 
 ### Example 1:
